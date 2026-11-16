@@ -1,22 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Game Arcade</title>
-  </head>
-
-  <body>
-    <header>
-      <h1>Our Game Arcade</h1>
-      <p>Games built by our team.</p>
-    </header>
-
-    <main>
-      <h2>Games</h2>
-      <div id="game-list"></div>
-    </main>
-
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Our Game Arcade</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/"><span aria-hidden="true">◆</span> Our Game Arcade</a>
+      <nav aria-label="Main navigation">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/catalog.html">Games</a>
+        <a href="/chatbot.html">Game help</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell" id="content">
+<section class="hero">
+  <div>
+    <p class="eyebrow">PYGAME IN YOUR BROWSER</p>
+    <h1>Our Game<br>Arcade<span>.</span></h1>
+    <p>A collection of arcade and puzzle games built by our team.</p>
+    <a class="button" href="/catalog.html">Browse games <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="hero-art" aria-hidden="true"><div class="pixel-grid"></div></div>
+</section>
+  </main>
+</body>
 </html>

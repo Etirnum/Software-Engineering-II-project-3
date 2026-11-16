@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play | Our Game Arcade</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/"><span aria-hidden="true">◆</span> Our Game Arcade</a>
+      <nav aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/catalog.html" class="active">Games</a>
+        <a href="/chatbot.html">Game help</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell" id="content">
+<a class="back" href="/catalog.html">← Back to games</a>
+<section class="page-heading">
+  <h1 id="game-title">Game</h1>
+  <p id="game-description"></p>
+</section>
+<section class="panel" id="instructions" hidden>
+  <h2>How to play</h2>
+  <dl id="game-instructions"></dl>
+</section>
+<section class="panel" id="play-area" hidden>
+  <h2>Play</h2>
+  <p id="game-status" role="status">Checking for the browser build…</p>
+  <div class="actions" id="play-actions" hidden>
+    <button class="button" type="button" id="launch-game">Launch game</button>
+    <a id="open-build" target="_blank" rel="noopener">Open in a new tab ↗</a>
+  </div>
+  <div id="game-frame"></div>
+</section>
+<noscript><p>Enable JavaScript to view this game.</p></noscript>
+  </main>
+</body>
+</html>
